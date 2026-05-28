@@ -26,6 +26,7 @@ if __name__ == "__main__":
 
     average = calculate_average(scores)
     print(f"평균 점수: {average:.1f}점")
+    print_result(scores, average)
 
 def calculate_average(scores):
     """점수 딕셔너리를 받아 평균을 반환한다."""
