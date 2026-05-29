@@ -50,3 +50,5 @@ def find_highest_lowest(scores):
     highest = max(SUBJECTS, key=lambda s: scores[s])
     lowest  = min(SUBJECTS, key=lambda s: scores[s])
     return highest, lowest
+    # gradebook v1.1 — 2주차 실습 시작
+SUBJECTS = ["국어", "영어", "수학", "과학탐구"]
